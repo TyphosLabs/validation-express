@@ -1,0 +1,21 @@
+{
+  "name": "@orchardcorset/validation-express",
+  "version": "0.0.1",
+  "description": "Express.js mount for handling validation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec"
+  },
+  "author": "Joshua Sullivan",
+  "license": "ISC",
+  "devDependencies": {
+    "@orchardcorset/validation-base": "^0.0.1",
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "mocha": "^2.4.5"
+  }
+}
