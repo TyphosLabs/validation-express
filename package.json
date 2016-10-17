@@ -1,5 +1,5 @@
 {
-  "name": "@typhoslabs/validation-express",
+  "name": "validation-express",
   "version": "0.0.1",
   "description": "Express.js mount for handling validation",
   "main": "index.js",

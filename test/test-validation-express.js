@@ -6,10 +6,7 @@ var expect = Chai.expect;
 
 Chai.use(DirtyChai);
 
-var Validation = require('@orchardcorset/validation-base')();
-Validation.use(require('@orchardcorset/validation-invalid'));
-Validation.use(require('@orchardcorset/validation-types'));
-Validation.use(require('../index.js'));
+var Validation = require('../index.js');
 
 describe('Validation', function(){
     describe('express', function(){
